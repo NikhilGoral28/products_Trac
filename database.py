@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
-db_url = "postgresql://postgres:Nikhil@localhost:5432/products_db"
+db_url = "Enter your db key"
 
 engine = create_engine(db_url)
 
